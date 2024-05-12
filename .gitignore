@@ -35,3 +35,6 @@ faroeste_caboclo-*.tar
 npm-debug.log
 /assets/node_modules/
 
+Dockerfile
+fly.toml
+.dockerignore
