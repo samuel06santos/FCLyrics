@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc375747-04d0-4124-8b54-8fc871792249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.formatter.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/faroeste_caboclo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bandit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchfella.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bypass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/castore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/certifi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/circular_buffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/combine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/credo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dart_sass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dialyxir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dns_cluster.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/earmark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_mysql_extras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_psql_extras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sqlite3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sqlite3_extras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/esbuild.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ex_aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ex_doc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/excoveralls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/expo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fast_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/file_system.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/finch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/floki.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gen_smtp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gettext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hackney.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/heroicons.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hpack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hpax.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/html5ever.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/html_entities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/idna.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/machete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/makeup_diff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/makeup_eex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/makeup_elixir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/metrics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mimerl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mint_web_socket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mix_test_watch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mua.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/multipart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/nimble_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/nimble_pool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/parse_trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_reload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phx_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/req.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ssl_verify_fun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/stream_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/swoosh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tailwind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_metrics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_poller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/thousand_island.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/timex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tzdata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/unicode_util_compat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/websock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/websock_adapter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/x509.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/runtime.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/heroicons/optimized/.fetch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo/application.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo/mailer.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/core_components.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts/app.html.heex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts/header_menu.html.heex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts/root.html.heex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/error_html.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/error_json.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html/home.html.heex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/endpoint.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/gettext.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/router.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/telemetry.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/gettext/en/LC_MESSAGES/errors.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/gettext/errors.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/static/images/faroeste_caboclo_PNG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/static/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/static/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/faroeste_caboclo_web/controllers/error_html_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/faroeste_caboclo_web/controllers/error_json_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/faroeste_caboclo_web/controllers/page_controller_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/support/conn_case.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.exs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2gKYAiMi611eFIKOWe6w90YIvpx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/samue/Documentos/GitHub/faroeste_caboclo/priv/static/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Documentos\GitHub\faroeste_caboclo\priv\static\images" />
+      <recent name="C:\Users\samue\Documentos\GitHub\faroeste_caboclo\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc375747-04d0-4124-8b54-8fc871792249" name="Changes" comment="" />
+      <created>1715447595653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715447595653</updated>
+      <workItem from="1715447596789" duration="13769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
