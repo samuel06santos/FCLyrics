@@ -8,7 +8,12 @@ defmodule FaroesteCabocloWeb.PageController do
   end
 
   def _getDay do
-    inicio_da_marmota = Timex.parse!("06/02/2024", "%d/%m/%Y", :strftime)
-    Timex.diff(Timex.now("America/Sao_Paulo"), inicio_da_marmota, :days)
+    agora = Timex.now("America/Sao_Paulo")# Timex.parse!("2024-05-12 00:00:00", "%Y-%m-%d %H:%M:%S", :strftime) |> Timex.to_datetime("America/Sao_Paulo")
+    inicio_da_marmota =
+      Timex.parse!("2024-02-06 00:00:00", "%Y-%m-%d %H:%M:%S", :strftime)
+      |> Timex.to_datetime("America/Sao_Paulo")
+      |> Timex.shift(days: -1) # corrige a contagem de dias
+
+    Timex.diff(agora, inicio_da_marmota, :days)
   end
 end

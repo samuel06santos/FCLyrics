@@ -12,7 +12,40 @@
     </script>
   </head>
   <body class="flex flex-col items-center justify-center bg-orange-400 antialiased">
-    <header class="fixed top-0 z-50 p-0 m-0 md:w-full w-screen">
+    <header class="flex items-center justify-center p-0 m-0 md:w-full w-screen">
+      <div class="relative flex flex-row justify-center w-1/3">
+        <div id="balinha" class="absolute top-[34%] right-[55%] rounded-l-md w-[12px] h-[6px] border border-orange-200 bg-gradient-to-r from-zinc-300 to-slate-500"></div>
+        <div id="fogo" class="absolute top-[32%] right-[54%] w-[18px] h-[10px] rounded-full border-[2px] border-orange-300 bg-red-500"></div>
+        <a href="https://www.instagram.com/odavi.los/" target="_blank" class="text-decoration-none">
+          <img width="96px" src="/images/faroeste_caboclo_PNG.png"
+            class="p-2 rounded-full bg-orange-950"/>
+        </a>
+      </div>
+      <style>
+        #fogo {
+          animation: explosao 0.2s ease;
+          opacity: 0;
+          z-index: 0;
+        }
+        @keyframes explosao {
+          0%{opacity: 1} 100%{opacity: 0}
+        }
+        #balinha {
+          animation: trajetoria 2s ease-in-out;
+          opacity: 0;
+          z-index: 1;
+        }
+        @keyframes trajetoria {
+          0% {
+            right: 55%;
+            opacity: 1;
+          }
+          100% {
+            right: 80%;
+            opacity: 0;
+          }
+        }
+      </style>
     </header>
 
     <%= @inner_content %>

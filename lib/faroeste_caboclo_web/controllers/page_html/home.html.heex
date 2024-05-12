@@ -2,8 +2,12 @@
 <div class="flex flex-col items-center justify-center py-4 rounded-2xl w-[70%] bg-orange-950">
     <h1 class="text-[2rem] text-white font-semibold">Faroeste Caboclo &bullet; Legião Urbana</h1>
 
+    <div class="relative p-2 rounded-md bg-[#1c7430]">
+        <div id="progresso" class="absolute z-0 top-0 left-0 rounded-l-md border h-full opacity-[65%] bg-[#7CFC00FF]"></div>
+        <h3 class="relative z-1 text-[1rem] text-white font-semibold"><%= @dia %>° dia / 1230 &bullet; <%= div(1230, @dia) %>% &bullet; (Faltam <%= 1230-@dia%> palavras)</h3>
+    </div>
 
-
+    <h2 id="palavraToday" class="text-[1rem] text-white font-semibold">Palavra de hoje: </h2>
     <div id="lyrics" class="flex flex-col items-start pt-5 text-white font-normal">
         <p></p>
         <p>Não tinha medo o tal João de Santo Cristo</p>
@@ -204,9 +208,7 @@
     </div>
     <script>
         let lyrics = document.getElementById("lyrics");
-        // let brTags = lyrics.getElementsByTagName("br");
-        // while(brTags.length) brTags[0].parentNode.removeChild(brTags[0]);
-
+        let palavraToday = document.getElementById("palavraToday");
         let pTags = lyrics.getElementsByTagName("p");
         let wordCount = 0;
         let found = false;
@@ -214,35 +216,29 @@
         for (let p of pTags) {
             let words = p.textContent.trim().split(/\s+/);
             let newContent = "";
+            let palavra_today = "";
 
             words.forEach((word, index) => {
-                wordCount += 1;
-                // Checa se a palavra atual é a palavra X no total acumulado
+                if (wordCount == 97) console.log(word)
                 if (wordCount === <%= @dia %> && !found) {
                     newContent += `<span class="cursor-pointer px-2 rounded-md text-zinc-800 font-semibold bg-amber-300 hover:bg-amber-500">${word}</span> `;
-                    found = true; // Garante que apenas uma palavra seja destacada
+                    palavraToday.innerHTML += `<span class="cursor-pointer px-2 rounded-md text-zinc-800 font-semibold bg-amber-300 hover:bg-amber-500">${word.replace(/[,.\n\s]+/, "")}</span>`;
+                    found = true;
                 } else {
                     newContent += word + " ";
                 }
+                wordCount += 1;
             });
-
-            p.innerHTML = newContent.trim(); // Atualiza o conteúdo do parágrafo
+            p.innerHTML = newContent.trim();
         }
 
         if (!found) {
             console.log("A palavra número X não foi encontrada.");
         }
-
-        // for (let i=0; i<pTags.length; i++) {
-        //     console.log(i===)
-        //     // if (wordCount == ) {
-        //     //     console.log(p)
-        //     // }
-        //     let words = pTags[i].textContent.trim().split(/\s+/);
-        //     wordCount += words.length;
-        //
-        // }
-        // console.log(`total de palavras: ${wordCount}`)
-
     </script>
+    <style>
+        #progresso {
+            width: <%= div(1230, @dia) %>%;
+        }
+    </style>
 </div>
