@@ -7,10 +7,7 @@
     <list default="true" id="cc375747-04d0-4124-8b54-8fc871792249" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/deps/heroicons/optimized/.fetch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts/root.html.heex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/components/layouts/root.html.heex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html/home.html.heex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html/home.html.heex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715447595653</updated>
-      <workItem from="1715447596789" duration="30508000" />
+      <workItem from="1715447596789" duration="30981000" />
     </task>
     <servers />
   </component>

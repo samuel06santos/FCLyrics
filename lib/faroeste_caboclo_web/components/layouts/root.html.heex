@@ -4,12 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content={get_csrf_token()} />
-    <.live_title>
-      <%= assigns[:page_title] || "FaroesteCaboclo" %>
-    </.live_title>
+    <title>Faroeste Caboclo &bullet; Instagram @odavi.los</title>
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
-    <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
-    </script>
+    <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}></script>
+    <link rel="icon" type="image/x-icon" href="/images/faroeste_caboclo_PNG.png">
   </head>
   <body class="flex flex-col items-center justify-center bg-orange-400 antialiased">
     <header class="flex items-center justify-center p-0 m-0 md:w-full w-screen">
