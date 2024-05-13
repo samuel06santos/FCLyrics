@@ -4,7 +4,7 @@
 
     <div class="relative p-2 rounded-md bg-[#1c7430]">
         <div id="progresso" class="absolute z-0 top-0 left-0 rounded-l-md border h-full opacity-[65%] bg-[#7CFC00FF]"></div>
-        <h3 class="relative z-1 text-[1rem] text-white font-semibold"><%= @dia %>° dia / 1230 &bullet; <%= div(1230, @dia) %>% &bullet; (Faltam <%= 1230-@dia%> palavras)</h3>
+        <h3 class="relative z-1 text-[1rem] text-white font-semibold"><%= @dia %>° dia / 1230 &bullet; <%= div(@dia, 1230) %>% &bullet; (Faltam <%= 1230-@dia%> palavras)</h3>
     </div>
 
     <h2 id="palavraToday" class="text-[1rem] text-white font-semibold">Palavra de hoje: </h2>
@@ -238,7 +238,7 @@
     </script>
     <style>
         #progresso {
-            width: <%= div(1230, @dia) %>%;
+            width: <%= div(@dia, 1230) %>%;
         }
     </style>
 </div>
