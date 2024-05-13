@@ -4,7 +4,12 @@ defmodule FaroesteCabocloWeb.PageController do
 
 
   def home(conn, _params) do
-    render(conn, :home, layout: false, dia: _getDay())
+    render(conn, :home, layout: false, dia: _getDay(), porcentagem: _get_percent())
+  end
+
+  def _get_percent do
+    # Retorna a porcentagem concluida: x / 1230
+    (_getDay()/1230)*100 |> Float.ceil(2) |> dbg
   end
 
   def _getDay do

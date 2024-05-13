@@ -7,6 +7,7 @@
     <list default="true" id="cc375747-04d0-4124-8b54-8fc871792249" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/deps/heroicons/optimized/.fetch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_controller.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html/home.html.heex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/faroeste_caboclo_web/controllers/page_html/home.html.heex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,9 @@
       <recent name="C:\Users\samue\Documentos\GitHub\faroeste_caboclo\priv\static\images" />
       <recent name="C:\Users\samue\Documentos\GitHub\faroeste_caboclo\assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Documentos\GitHub\faroeste_caboclo" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1715447595653</updated>
       <workItem from="1715447596789" duration="32365000" />
-      <workItem from="1715565970429" duration="641000" />
+      <workItem from="1715565970429" duration="1428000" />
+      <workItem from="1715569045833" duration="919000" />
     </task>
     <servers />
   </component>
